@@ -50,18 +50,91 @@
 .fotos-circulos .los-circulos a{
   background-color: #ddc987;
   font-weight: bold;
-  color: #2F1F1F;
+  color: #2f241f;
   padding: 10px 20px;
   border-radius: 10px;
   text-decoration: none; 
 }
 .fotos-circulos .los-circulos a:hover{
-  background-color: #D3693F; 
+  background-color: #E3574B; 
 }
 .fotos-circulos .los-circulos .border-circle{
   border-radius: 50%;
   border: 10px solid #ddc987; 
 }
 .fotos-circulos .los-circulos .border-circle:hover{
-  border: 10px solid #D3693F; 
+  border: 10px solid #E3574B; 
+}
+.welcome {
+  background-color: #e2dab3;
+  padding: 5% 0;
+  border-bottom: 2px solid #ddc987; 
+}
+.welcome h3 {
+  color: #E3574B;
+  font-size: 2.5em;
+  margin-bottom: 4%; 
+}
+.welcome .parag {
+  padding-bottom: 20px; 
+}
+.welcome i {
+  color: #E3574B;
+  padding-right: 7px; 
+}
+.welcome img {
+  border-radius: 8px; 
+}
+.about {
+  background-color: #51453f;
+  color: #ddc987;
+  border-bottom: 2px solid #ddc987;
+  padding: 5% 0; 
+}
+.about hr {
+  border-top: 3px double #ddc987;
+  width: 250px; 
+}
+.about h3 { 
+  font-size: 2em;
+  margin-bottom: 5%; 
+}
+.about img {
+  margin: 0 25px 25px 25px; 
+}
+
+footer {
+  background-color: #2f241f;
+  color: #ddc987;
+  padding: 3% 0; 
+}
+footer h4 {
+  font-size: 1.7em; 
+}
+footer .social-red {
+  padding-left: 0;
+  padding-bottom: 30px; 
+}
+footer img {
+  background-color: #BFB68D;
+  border-radius: 50%;
+  border: 5px solid #E3574B;
+  cursor: pointer; 
+}
+footer h4 {
+  margin-bottom: 20px; 
+}
+footer span {
+  color: #E3574B; 
+}
+footer i {
+  color: #E3574B;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  position: relative;
+  top: 10px; 
+}
+footer hr {
+  width: 100%;
+  border-top: 1px solid #ddc987; 
 }
