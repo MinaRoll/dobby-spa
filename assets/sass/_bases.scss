@@ -28,4 +28,38 @@
 		}
 	}
 }
-
+.fotos-circulos{
+	background-color: $rosado_background;
+	h2{
+		@include tipografiaLinda();
+	}
+	.los-circulos{
+		position: relative;
+		top: -50px;
+		h5{
+			@include tipografiaLinda();
+			font-size: 2em;
+			margin-top: 5%;
+		}
+		p{
+			margin-bottom: 30px;
+		}
+		a{
+			background-color: $rosado_resalte;
+			color: $color_footer;
+			padding: 10px 20px;
+			border-radius: 20px;
+			text-decoration: none;
+		}
+		a:hover{
+			background-color: #D3693F;
+		}
+		.border-circle{
+			border-radius: 50%;
+			border: 10px solid $rosado_resalte;
+		}
+		.border-circle:hover{
+			border: 10px solid #D3693F;
+		}
+	}
+}

@@ -33,3 +33,34 @@
 .navbar.navbar-default .navbar-menu li{
   color: #ddc987; 
 }
+.fotos-circulos {
+  background-color: #e2dab3; 
+}
+.fotos-circulos .los-circulos{
+  position: relative;
+    top: -50px; 
+  }
+.fotos-circulos .los-circulos h5{    
+  font-size: 2em;
+  margin-top: 5%; 
+}
+.fotos-circulos .los-circulos p{
+  margin-bottom: 30px; 
+}
+.fotos-circulos .los-circulos a{
+  background-color: #ddc987;
+  color: #2F1F1F;
+  padding: 10px 20px;
+  border-radius: 20px;
+  text-decoration: none; 
+}
+.fotos-circulos .los-circulos a:hover{
+  background-color: #D3693F; 
+}
+.fotos-circulos .los-circulos .border-circle{
+  border-radius: 50%;
+  border: 10px solid #ddc987; 
+}
+.fotos-circulos .los-circulos .border-circle:hover{
+  border: 10px solid #D3693F; 
+}
