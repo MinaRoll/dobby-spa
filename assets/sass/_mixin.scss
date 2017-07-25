@@ -1,13 +1,8 @@
-@mixin paddingSeccion(){
-	padding: 5% 0;
-}
-
-@mixin redesSociales(){
+@mixin redes(){
 	background-color: #BFB68D;
 	border-radius: 50%;
 	border: 5px solid #D3693F;
 }
-
-@mixin tipografiaLinda(){
-	font-family: 'Berkshire Swash', cursive;
+@mixin medida_padding(){
+	padding: 5% 0;
 }

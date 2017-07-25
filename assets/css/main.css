@@ -1,10 +1,35 @@
 * {
   font-family: "Raleway", sans-serif; 
 }
-.navbar .navbar-nav {
+.navbar .navbar-menu {
   display: inline-block;
   float: none; 
 }
-.navbar .navbar-collapse {
+.navbar .navbar-collapse{
   text-align: center; 
+}
+.navbar.navbar-default{
+  background-color: #281919;
+  border-radius: 0;
+  margin: 0;
+  border: none; 
+ }
+.navbar.navbar-default .navbar-menu li a{
+  color: white; 
+}
+.navbar.navbar-default .navbar-menu li a:hover{
+  color: #ddc987; 
+}
+.navbar.navbar-default .navbar-menu li a.nav-dropdown{
+    background-color: transparent; 
+}
+.navbar.navbar-default .navbar-menu li{
+  background-color: #281919; 
+}
+.navbar.navbar-default .navbar-menu li{
+  color: white;
+  background-color: transparent; 
+}
+.navbar.navbar-default .navbar-menu li{
+  color: #ddc987; 
 }

@@ -1,13 +1,31 @@
 *{
 	font-family: $body_font;
 }
-
 .navbar .navbar-nav {
     display: inline-block;
     float: none;
 }
-
 .navbar .navbar-collapse {
     text-align: center;
+}
+.navbar.navbar-default{
+	background-color: $color_nav;
+	border-radius: 0;
+	margin: 0;
+	border: none;
+	.navbar-menu{
+		li{
+			a{
+				color: white;
+			}
+			a:hover{
+				color: $color_beige;
+			}
+			a.nav-dropdown{
+				background-color: $transparent;
+			}
+			
+		}
+	}
 }
 
