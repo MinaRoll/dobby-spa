@@ -1,7 +1,7 @@
 * {
   font-family: "Raleway", sans-serif; 
 }
-.navbar .navbar-menu {
+.navbar .navbar-nav {
   display: inline-block;
   float: none; 
 }
@@ -14,23 +14,23 @@
   margin: 0;
   border: none; 
  }
-.navbar.navbar-default .navbar-menu li a{
+.navbar.navbar-default .navbar-nav li a{
   color: white; 
 }
-.navbar.navbar-default .navbar-menu li a:hover{
+.navbar.navbar-default .navbar-nav li a:hover{
   color: #ddc987; 
 }
-.navbar.navbar-default .navbar-menu li a.nav-dropdown{
+.navbar.navbar-default .navbar-nav li a.dropdown-toggle{
     background-color: transparent; 
 }
-.navbar.navbar-default .navbar-menu li{
+.navbar.navbar-default .navbar-nav li{
   background-color: #281919; 
 }
-.navbar.navbar-default .navbar-menu li{
+.navbar.navbar-default .navbar-nav li{
   color: white;
   background-color: transparent; 
 }
-.navbar.navbar-default .navbar-menu li{
+.navbar.navbar-default .navbar-nav li{
   color: #ddc987; 
 }
 .fotos-circulos {
@@ -66,7 +66,7 @@
   border: 10px solid #E3574B; 
 }
 .welcome {
-  background-color: #e2dab3;
+  background-color: whitesmoke;
   padding: 5% 0;
   border-bottom: 2px solid #ddc987; 
 }
@@ -83,7 +83,7 @@
   padding-right: 7px; 
 }
 .welcome img {
-  border-radius: 8px; 
+  border-radius: 20px; 
 }
 .about {
   background-color: #51453f;
@@ -138,3 +138,5 @@ footer hr {
   width: 100%;
   border-top: 1px solid #ddc987; 
 }
+
+
