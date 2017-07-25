@@ -24,20 +24,16 @@
 			a.nav-dropdown{
 				background-color: $transparent;
 			}
-			
+
 		}
 	}
 }
 .fotos-circulos{
-	background-color: $rosado_background;
-	h2{
-		@include tipografiaLinda();
-	}
+	background-color: $color_beige;
 	.los-circulos{
 		position: relative;
 		top: -50px;
 		h5{
-			@include tipografiaLinda();
 			font-size: 2em;
 			margin-top: 5%;
 		}
@@ -45,10 +41,11 @@
 			margin-bottom: 30px;
 		}
 		a{
-			background-color: $rosado_resalte;
+			background-color: $color_crema;
+			font-weight:bold;
 			color: $color_footer;
 			padding: 10px 20px;
-			border-radius: 20px;
+			border-radius: 10px;
 			text-decoration: none;
 		}
 		a:hover{
@@ -56,10 +53,30 @@
 		}
 		.border-circle{
 			border-radius: 50%;
-			border: 10px solid $rosado_resalte;
+			border: 10px solid $color_crema;
 		}
 		.border-circle:hover{
 			border: 10px solid #D3693F;
 		}
+	}
+}
+.welcome{
+	background-color: #f2eded;
+	@include medida_padding();
+	h3{
+		font-size: 2.5em;
+		margin-bottom: 4%;
+	}
+	.parag{
+		padding-bottom: 20px;
+	}
+	i{
+		color: #D3693F;
+		padding-right: 7px;
+	}
+
+	border-bottom: 2px solid $color_crema;
+	img{
+		border-radius: 8px;
 	}
 }
